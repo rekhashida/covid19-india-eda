@@ -22,15 +22,17 @@ and Union Territories using Python and Power BI.
 - **Punjab** had 1,233 active cases — 6x more than Maharashtra in 2nd place
 
 ## 📁 Project Structure
- covid19-india-eda/
-│
-├── Covid19_India_EDA.ipynb       # Main analysis notebook
-├── covid_sql_analysis.sql        # 10 SQL queries for business insights
-├── covid19_india_cleaned.csv     # Cleaned dataset
-├── COVID19_India_Dashboard.pbix  # Power BI dashboard
-├── COVID19_Dashboard.png         # Dashboard screenshot
-└── README.md
 
+```
+covid19-india-eda/
+│
+├── Covid19_India_EDA.ipynb         # Main analysis notebook
+├── covid_sql_analysis.sql          # 10 SQL queries for business insights
+├── covid19_india_cleaned.csv       # Cleaned dataset
+├── COVID19_India_Dashboard.pbix    # Power BI dashboard
+├── COVID19_Dashboard.png           # Dashboard screenshot
+└── README.md
+```
 ## ⚠️ Data Limitations
 - Snapshot dataset — wave-wise trend analysis not possible
 - Population column had inconsistent values — documented in notebook
